@@ -14,6 +14,10 @@ auto n = toUType(State::Running);   // std::uint8_t, value 2
 `constexpr` and `noexcept`; the result type is exactly `std::underlying_type_t<E>`,
 so it never silently widens. Header-only, standard-library only.
 
+## Dependencies
+
+**None** — header-only, standard library only.
+
 ## Build / test
 ```sh
 cmake -B build && cmake --build build && ctest --test-dir build
