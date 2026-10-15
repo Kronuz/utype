@@ -1,5 +1,7 @@
 # utype
 
+[![CI](https://github.com/Kronuz/utype/actions/workflows/ci.yml/badge.svg)](https://github.com/Kronuz/utype/actions/workflows/ci.yml)
+
 `toUType(e)` returns the value of an enum(-class) as its **underlying integer
 type** -- the missing inverse of `static_cast<EnumClass>(int)`. Extracted from
 [Xapiand](https://github.com/Kronuz/Xapiand).
